@@ -56,7 +56,7 @@
         "en": "dsh-playwright"
       },
       "description": {
-        "en": "Browser automation: official Microsoft @playwright/mcp connected to the DSH mcp-client (config-only bundle, isolated per-session, MS Edge)."
+        "en": "Session-owned Playwright MCP for Microsoft Edge: separate exclusive tab groups per concurrent DSH session, even across workspaces."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
@@ -89,6 +89,15 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
             "commit": "d2cdd64b71e34f9f9cdb0ee488f8f251fce6e63f"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793997251,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+            "commit": "36e06faa6e0803681662769c815b482e77f51bab"
           }
         }
       ]
