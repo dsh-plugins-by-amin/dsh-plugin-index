@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Plugins by Amin"
+  },
+  "description": {
+    "en": "Plugins maintained by the dsh-plugins-by-amin org. Install through the Discover tab."
+  },
+  "plugins": [
+    {
+      "name": "@dsh-plugins-by-amin/dsh-notify",
+      "title": {
+        "en": "dsh-notify"
+      },
+      "description": {
+        "en": "Windows toast notifications for DSH: activity fully done (incl. subagents), pending approvals, and tool errors. Zero npm dependencies."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-notify",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-notify"
+      },
+      "versions": [
+        {
+          "version": "2.0.2",
+          "publishTimestamp": 1793957098,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
+            "commit": "b5843419bc58fa35078c7917b565a53fd106f5e7"
+          }
+        },
+        {
+          "version": "2.0.3",
+          "publishTimestamp": 1793957250,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
+            "commit": "ddbe3a6831aa8e461e30bf1981fa614444df0727"
+          }
+        },
+        {
+          "version": "2.0.4",
+          "publishTimestamp": 1793958103,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
+            "commit": "372405ffee52d974ea061dad40d4b874b1ce5001"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-playwright",
+      "title": {
+        "en": "dsh-playwright"
+      },
+      "description": {
+        "en": "Browser automation: official Microsoft @playwright/mcp connected to the DSH mcp-client (config-only bundle, isolated per-session, MS Edge)."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793960365,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+            "commit": "fe96c0e85aad935f7bb755ec8de449c21a86d0bd"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793960491,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+            "commit": "6f09bf4af4038d98537ca0e841507bdf768cfec3"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1793963208,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+            "commit": "d2cdd64b71e34f9f9cdb0ee488f8f251fce6e63f"
+          }
+        }
+      ]
+    }
+  ]
+}
