@@ -8,6 +8,29 @@
   },
   "plugins": [
     {
+      "name": "@dsh-plugins-by-amin/dsh-affinity",
+      "title": { "en": "DSH Affinity", "ms": "DSH Affinity" },
+      "description": {
+        "en": "Native Affinity by Canva MCP tools and in-app SDK documentation over a local connection. No community skills bundled. Requires Affinity MCP enabled and Node.js 22+.",
+        "ms": "Tools MCP asal Affinity by Canva dan dokumentasi SDK dalam app melalui sambungan tempatan. Tiada skill komuniti. Memerlukan Affinity MCP dan Node.js 22+."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-affinity",
+      "repository": { "url": "https://github.com/dsh-plugins-by-amin/dsh-affinity" },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794074487,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-affinity",
+            "commit": "0cfd50d01acdba4ac87935f41360ef89f94e4725"
+          },
+          "engines": { "dsh": ">=0.2.2-rc.1 <0.3.0" }
+        }
+      ]
+    },
+    {
       "name": "@dsh-plugins-by-amin/dsh-notify",
       "title": {
         "en": "dsh-notify"
