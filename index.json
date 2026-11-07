@@ -191,7 +191,7 @@
         "en": "DSH MCP Connectors"
       },
       "description": {
-        "en": "Native DSH MCP clients (no mcpManager required): GitHub and Context7 by default, opt-in Cloudflare, PostgreSQL, Docker; preserves Playwright."
+        "en": "Native DSH MCP clients with safe connection status and credential diagnostics: GitHub/Context7 on, Cloudflare/PostgreSQL/Docker opt-in; preserves Playwright."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors",
@@ -218,6 +218,18 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors",
             "commit": "069af001460aea2fb1effaa9bcf8e45c0ccb32c5"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1794069598,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors",
+            "commit": "8e23fefe046a0e963adfda057fe3f1950d2ce961"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
