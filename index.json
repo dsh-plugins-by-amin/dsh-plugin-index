@@ -142,7 +142,7 @@
         "en": "DSH SDLC Bridge"
       },
       "description": {
-        "en": "SDLC V2 GitHub governance and inheritance detection, six skills, scoped phase handoffs. Preview: DSH Windows integration testing pending."
+        "en": "DO NOT INSTALL: 0.1.0 is an unverified SDLC Bridge preview; Windows DSH integration and governance bypass tests are pending. Candidate 0.1.1 is source-only and not indexed."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
