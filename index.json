@@ -135,6 +135,31 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-sdlc-bridge",
+      "title": {
+        "en": "DSH SDLC Bridge"
+      },
+      "description": {
+        "en": "SDLC V2 GitHub governance and inheritance detection, six skills, scoped phase handoffs. Preview: DSH Windows integration testing pending."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794037346,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "1f1d4ec941a7b0be05756f20e41babb54bb38f28"
+          }
+        }
+      ]
     }
   ]
 }
