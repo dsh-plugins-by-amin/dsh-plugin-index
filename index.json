@@ -191,7 +191,7 @@
         "en": "DSH MCP Connectors"
       },
       "description": {
-        "en": "Native DSH MCP connectors: Context7 by default; Cloudflare, PostgreSQL and Docker optional. GitHub remains available through existing git/gh CLI, not duplicate MCP auth."
+        "en": "Four independently switchable DSH components: Context7 (on by default), optional Cloudflare/PostgreSQL/Docker (off by default). GitHub remains handled through git/gh CLI."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors",
@@ -242,6 +242,18 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors",
             "commit": "d80fc8b8e0a53ed1816329714270cecacd735788"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1794070549,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors",
+            "commit": "17323ae510962d1b523e21efc8a1864514be5326"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
