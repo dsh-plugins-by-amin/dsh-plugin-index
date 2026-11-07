@@ -224,34 +224,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-codex-compat",
-      "title": {
-        "en": "Codex Compat"
-      },
-      "description": {
-        "en": "Compatibility shim for OpenAI Codex routes in DSH: drops the unsupported temperature parameter so Auto review works with openai-codex models. Auto review still reviews every tool call; only one unsupported sampling field is removed."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
-      },
-      "versions": [
-        {
-          "version": "1.0.0",
-          "publishTimestamp": 1794068561,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
-            "commit": "47d6b10ce29d307cd0d0194b40aec9d87c77e76e"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        }
-      ]
     }
   ]
 }
