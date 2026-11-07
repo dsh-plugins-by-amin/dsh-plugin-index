@@ -142,7 +142,7 @@
         "en": "DSH SDLC Bridge"
       },
       "description": {
-        "en": "DO NOT INSTALL: 0.1.0 is an unverified SDLC Bridge preview; Windows DSH integration and governance bypass tests are pending. Candidate 0.1.1 is source-only and not indexed."
+        "en": "SDLC V2 GitHub document-driven agent workflow: automatic project/inheritance awareness, six skills, scope and gate guidance. Runtime integration not yet verified; no hard tool authorization."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
@@ -157,6 +157,18 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
             "commit": "1f1d4ec941a7b0be05756f20e41babb54bb38f28"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1794039731,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "c0e65911a80dfeb516f44ffedf481181e32d49a4"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
