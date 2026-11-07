@@ -175,6 +175,34 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-mcp-connectors",
+      "title": {
+        "en": "DSH MCP Connectors"
+      },
+      "description": {
+        "en": "Native DSH MCP connections: GitHub and Context7 by default; optional Cloudflare, PostgreSQL, Docker; preserves existing MCP servers and Playwright."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794043705,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-mcp-connectors",
+            "commit": "ed58b83d781dc77651887ba42dfae92fdb730aff"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
