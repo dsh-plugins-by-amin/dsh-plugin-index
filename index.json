@@ -101,6 +101,30 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-keyring",
+      "title": {
+        "en": "dsh-keyring"
+      },
+      "description": {
+        "en": ""
+      },
+      "author": "dsh-plugins-by-amin",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794024457,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
+            "commit": "2a4eb289441615279ea60285f4cff298abd70a3a"
+          }
+        }
+      ]
     }
   ]
 }
