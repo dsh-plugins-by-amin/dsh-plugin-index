@@ -105,12 +105,13 @@
     {
       "name": "@dsh-plugins-by-amin/dsh-keyring",
       "title": {
-        "en": "dsh-keyring"
+        "en": "Keyring"
       },
       "description": {
-        "en": ""
+        "en": "Secure API token store for DSH: save, rotate, delete, and use tokens (Cloudflare and any other service) without exposing values in chat or logs. Requests are allowlisted per token; disabling the plugin cuts access, and the wipe tool clears all data."
       },
-      "author": "dsh-plugins-by-amin",
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
       "repository": {
         "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring"
       },
