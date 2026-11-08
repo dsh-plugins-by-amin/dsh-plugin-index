@@ -235,6 +235,18 @@
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
           }
+        },
+        {
+          "version": "1.0.1",
+          "publishTimestamp": 1794129743,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+            "commit": "bc9a298f16602453d978df2eaca59322053f83ef"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
         }
       ]
     }
