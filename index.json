@@ -207,6 +207,36 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-repo-2-workspace",
+      "title": {
+        "en": "Workspace dari GitHub",
+        "ms": "Workspace dari GitHub"
+      },
+      "description": {
+        "en": "Sidebar panel that clones a GitHub repository into the folder you pick every time (no default), registers the folder as a DSH workspace, and opens a new session in it. Also exposes the repo2workspace_clone tool to agents with the same no-default destination rule.",
+        "ms": "Panel sidebar yang clone repo GitHub ke folder yang kau pilih setiap kali (tiada default), daftar folder itu sebagai workspace DSH, dan terus buka sesi baru di dalamnya. Tool repo2workspace_clone turut didedahkan kepada agent dengan peraturan sama: destinasi tiada default."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794129561,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+            "commit": "0a6cea0bd6f18cfa3ea8bfba48990121ce7efeda"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
