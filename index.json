@@ -9,14 +9,19 @@
   "plugins": [
     {
       "name": "@dsh-plugins-by-amin/dsh-affinity",
-      "title": { "en": "DSH Affinity", "ms": "DSH Affinity" },
+      "title": {
+        "en": "DSH Affinity",
+        "ms": "DSH Affinity"
+      },
       "description": {
         "en": "Native Affinity by Canva MCP tools and in-app SDK documentation over a local connection. No community skills bundled. Requires Affinity MCP enabled and Node.js 22+.",
         "ms": "Tools MCP asal Affinity by Canva dan dokumentasi SDK dalam app melalui sambungan tempatan. Tiada skill komuniti. Memerlukan Affinity MCP dan Node.js 22+."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-affinity",
-      "repository": { "url": "https://github.com/dsh-plugins-by-amin/dsh-affinity" },
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-affinity"
+      },
       "versions": [
         {
           "version": "1.0.0",
@@ -26,7 +31,9 @@
             "url": "https://github.com/dsh-plugins-by-amin/dsh-affinity",
             "commit": "0cfd50d01acdba4ac87935f41360ef89f94e4725"
           },
-          "engines": { "dsh": ">=0.2.2-rc.1 <0.3.0" }
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
         }
       ]
     },
@@ -174,7 +181,7 @@
         "en": "DSH SDLC Bridge"
       },
       "description": {
-        "en": "SDLC V2 GitHub document-driven agent workflow: automatic project/inheritance awareness, six skills, scope and gate guidance. Runtime integration not yet verified; no hard tool authorization."
+        "en": "SDLC V2 GitHub-backed workstream guidance and six skills; P3/P5 prototype boundary with an opt-in session-scoped native tool deny hook. Not an OS sandbox; Windows DSH activation unverified."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
@@ -201,6 +208,18 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
             "commit": "c0e65911a80dfeb516f44ffedf481181e32d49a4"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1794225176,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "e2b620d08500de2b6a4995e03ddde3c62ab4124a"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
