@@ -181,7 +181,7 @@
         "en": "DSH SDLC Bridge"
       },
       "description": {
-        "en": "SDLC V2 GitHub-backed workstream guidance and six skills; P3/P5 prototype boundary with an opt-in session-scoped native tool deny hook. Not an OS sandbox; Windows DSH activation unverified."
+        "en": "SDLC V2 Bridge with seven skills, ChatGPT P3 UX Blueprint/G0 intake, full-scope frontend/mocks and six-matrix QA contracts; opt-in P3 boundary guard. DSH Desktop activation remains unverified."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
@@ -220,6 +220,18 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
             "commit": "e2b620d08500de2b6a4995e03ddde3c62ab4124a"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1794273541,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "0e2ebf60bf3a4094e619775b097d11048c414f11"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
