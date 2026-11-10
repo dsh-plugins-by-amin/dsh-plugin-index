@@ -181,7 +181,7 @@
         "en": "DSH SDLC Bridge"
       },
       "description": {
-        "en": "SDLC V2 Bridge: approved P3 UX/G0 and CR return, plus dedicated P5 full-stack execution skill. P5 validates exhaustive P1-P4 inventories, P3 screen/component and role parity, P2 measured quality, P4 contracts, DSH code/test evidence and scoped CR/G5 handoff. DSH Desktop activation remains unverified."
+        "en": "SDLC V2 Bridge: approved P3 UX/G0/CR controls plus dedicated P5 full-stack execution contract. P5 validates exhaustive P1-P4 catalog and scope, role/screen/component parity, measured P2 security-reliability-performance, P4 contracts, DSH code/test evidence and CR/G5 return. Accepts numeric and P-prefixed ChatGPT P5 source phases; DSH Desktop activation remains unverified."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
@@ -268,6 +268,18 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
             "commit": "5b52eb7a3739c588a4c4c1fc3fb2c392f0c8dfd9"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.8",
+          "publishTimestamp": 1794277741,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "f45b5a4e4d1f386349c9a52f492418d551bcaf00"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
