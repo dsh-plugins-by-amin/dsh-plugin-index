@@ -181,7 +181,7 @@
         "en": "DSH SDLC Bridge"
       },
       "description": {
-        "en": "SDLC V2 Bridge with seven skills, ChatGPT P3 UX Blueprint/G0 intake, full-scope frontend/mocks and six-matrix QA contracts; opt-in P3 boundary guard. DSH Desktop activation remains unverified."
+        "en": "SDLC V2 Bridge: P3 approved UX/G0, full-scope frontend/mocks, DSH P3 return packets and CR loop to ChatGPT P3/P4, six-matrix QA and opt-in P3 guard. Real DSH Desktop activation unverified."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
@@ -244,6 +244,18 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
             "commit": "23545221fb8e1fff6c76ccb81c79a13efc777e1c"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.1.6",
+          "publishTimestamp": 1794275379,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "1542b2036938fe1a16eb3540e6f0798a5b2bbbdb"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
