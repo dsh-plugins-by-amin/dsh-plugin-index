@@ -236,6 +236,18 @@
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
           }
+        },
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1794273796,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "23545221fb8e1fff6c76ccb81c79a13efc777e1c"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
         }
       ]
     },
