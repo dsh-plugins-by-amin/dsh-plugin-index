@@ -450,12 +450,14 @@
     {
       "name": "@dsh-plugins-by-amin/dsh-playwright",
       "title": {
-        "en": "dsh-playwright"
+        "en": "dsh-playwright",
+        "ms": "dsh-playwright"
       },
       "description": {
-        "en": ""
+        "en": "Preview: session-isolated Microsoft Edge automation. Each DSH session owns one pinned Playwright MCP stdio child and its own isolated Edge; no shared personal browser. Requires installed Edge.",
+        "ms": "Pratonton: automasi Microsoft Edge terasing per sesi DSH. Setiap sesi DSH memiliki satu child Playwright MCP (versi disemat) dan Edge terasing sendiri; tiada kongsi pelayar peribadi. Memerlukan Edge dipasang."
       },
-      "author": "dsh-plugins-by-amin",
+      "author": "aminfaudzi",
       "repository": {
         "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright"
       },
@@ -469,7 +471,8 @@
             "commit": "8ba2507ff48667e28b77cf0769a63de72b3c65cb"
           }
         }
-      ]
+      ],
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-playwright"
     }
   ]
 }
