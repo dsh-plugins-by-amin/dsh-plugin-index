@@ -147,6 +147,15 @@
       },
       "versions": [
         {
+          "version": "1.1.1",
+          "publishTimestamp": 1794369604,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
+            "commit": "9c5d4f78d109c3249bfe3f1af08f84f444d03727"
+          }
+        },
+        {
           "version": "1.1.0",
           "publishTimestamp": 1794368990,
           "source": {
