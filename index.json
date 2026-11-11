@@ -446,6 +446,30 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-playwright",
+      "title": {
+        "en": "dsh-playwright"
+      },
+      "description": {
+        "en": ""
+      },
+      "author": "dsh-plugins-by-amin",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright"
+      },
+      "versions": [
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1794415123,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+            "commit": "8ba2507ff48667e28b77cf0769a63de72b3c65cb"
+          }
+        }
+      ]
     }
   ]
 }
