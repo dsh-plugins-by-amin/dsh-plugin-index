@@ -437,6 +437,15 @@
       },
       "versions": [
         {
+          "version": "1.1.0",
+          "publishTimestamp": 1794438880,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-language",
+            "commit": "2dd3b446de0369a3dec0bd14cdbd6f1577b0fa0e"
+          }
+        },
+        {
           "version": "1.0.0",
           "publishTimestamp": 1794370008,
           "source": {
