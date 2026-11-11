@@ -95,6 +95,15 @@
       },
       "versions": [
         {
+          "version": "0.3.0",
+          "publishTimestamp": 1794401470,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+            "commit": "53a8ccd740f771ef405b4d235512e652d7e80394"
+          }
+        },
+        {
           "version": "0.2.0",
           "publishTimestamp": 1793997814,
           "source": {
