@@ -476,12 +476,14 @@
     {
       "name": "@dsh-plugins-by-amin/dsh-language",
       "title": {
-        "en": "dsh-language"
+        "en": "Language (BM)"
       },
       "description": {
-        "en": ""
+        "en": "Injects a Malaysian language contract (BM + English, no Indonesian) into the core system prompt of every session. One compact rule, no tools, no UI.",
+        "ms": "Suntik kontrak bahasa Malaysia (BM + English, tiada Indonesia) ke tengah system prompt setiap sesi. Satu peraturan padat, tiada tool."
       },
-      "author": "dsh-plugins-by-amin",
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-language",
       "repository": {
         "url": "https://github.com/dsh-plugins-by-amin/dsh-language"
       },
