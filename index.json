@@ -412,6 +412,36 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-engineering-practices",
+      "title": {
+        "en": "DSH Engineering Practices",
+        "ms": "DSH Engineering Practices"
+      },
+      "description": {
+        "en": "Five lightweight technical skills for standalone maintenance, test-first development, debugging, code review and verification. Defers to SDLC Bridge v0.1.12 for governed P3/P5; supports authorized P8 without changing Bridge gates.",
+        "ms": "Lima kemahiran kejuruteraan untuk kerja standalone dan penyelenggaraan: test-first, debugging, code review dan verification. Patuh kepada SDLC Bridge v0.1.12 bagi P3/P5 dan sokongan P8 tanpa mengubah gate."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794367131,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+            "commit": "dd15a5a61149fca59ef53821fc05c684b90baf1a"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
