@@ -472,6 +472,30 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-language",
+      "title": {
+        "en": "dsh-language"
+      },
+      "description": {
+        "en": ""
+      },
+      "author": "dsh-plugins-by-amin",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-language"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794370008,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-language",
+            "commit": "04880cfa67cb342581cb801ceff47d242333abb8"
+          }
+        }
+      ]
     }
   ]
 }
