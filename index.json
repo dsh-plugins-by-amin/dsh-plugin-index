@@ -398,8 +398,8 @@
         "ms": "DSH Engineering Practices"
       },
       "description": {
-        "en": "Ten selectively activated engineering skills for coding, secure development, vulnerability assessment, authorized penetration testing, performance/resilience testing and digital forensics. Includes opt-in bounded CLI helpers; external tools and live DSH runtime verification are separate. Defers P3/P5/P8 governance to SDLC Bridge v0.1.12.",
-        "ms": "Sepuluh skills kejuruteraan terpilih mengikut konteks: coding, keselamatan aplikasi, vulnerability assessment, penetration testing dibenarkan, performance/resilience dan digital forensics. CLI helper terkawal adalah pilihan; penggunaan tools luaran dan pengesahan runtime DSH perlu diuji berasingan. Kekalkan kawalan Bridge v0.1.12 untuk P3/P5/P8."
+        "en": "Selective engineering skill bundle with one native DSH workbench for authorized multi-stage security/pentest, k6 load/stress/spike/soak, and extensive forensic source/log/Git/memory-image analysis. Ten on-demand skills; no automatic scans or model routing. External tools must be installed separately; Bridge v0.1.12 keeps P3/P5/P8 governance.",
+        "ms": "Sepuluh skills kejuruteraan on-demand dan satu workbench native DSH untuk security/pentest terkawal, k6 load/stress/spike/soak serta forensic audit kod/log/Git/memory image. Tiada scan automatik atau model router. Tools luaran dipasang berasingan; Bridge v0.1.12 kekal mengawal P3/P5/P8."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
@@ -407,6 +407,18 @@
         "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices"
       },
       "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1794486000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+            "commit": "1d3779d5d1f401fed12c2f5dc060902e5c464104"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.2.0",
           "publishTimestamp": 1794485400,
