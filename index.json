@@ -398,8 +398,8 @@
         "ms": "DSH Engineering Practices"
       },
       "description": {
-        "en": "Five lightweight technical skills for standalone maintenance, test-first development, debugging, code review and verification. Defers to SDLC Bridge v0.1.12 for governed P3/P5; supports authorized P8 without changing Bridge gates.",
-        "ms": "Lima kemahiran kejuruteraan untuk kerja standalone dan penyelenggaraan: test-first, debugging, code review dan verification. Patuh kepada SDLC Bridge v0.1.12 bagi P3/P5 dan sokongan P8 tanpa mengubah gate."
+        "en": "Ten selectively activated engineering skills for coding, secure development, vulnerability assessment, authorized penetration testing, performance/resilience testing and digital forensics. Includes opt-in bounded CLI helpers; external tools and live DSH runtime verification are separate. Defers P3/P5/P8 governance to SDLC Bridge v0.1.12.",
+        "ms": "Sepuluh skills kejuruteraan terpilih mengikut konteks: coding, keselamatan aplikasi, vulnerability assessment, penetration testing dibenarkan, performance/resilience dan digital forensics. CLI helper terkawal adalah pilihan; penggunaan tools luaran dan pengesahan runtime DSH perlu diuji berasingan. Kekalkan kawalan Bridge v0.1.12 untuk P3/P5/P8."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
@@ -407,6 +407,18 @@
         "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices"
       },
       "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794485400,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+            "commit": "8716874ade801117ca08d37b590c39631d7cf462"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.1.0",
           "publishTimestamp": 1794367131,
