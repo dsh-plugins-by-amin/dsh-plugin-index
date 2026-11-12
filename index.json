@@ -398,8 +398,8 @@
         "ms": "DSH Engineering Practices"
       },
       "description": {
-        "en": "Selective engineering skill bundle with one native DSH workbench for authorized multi-stage security/pentest, k6 load/stress/spike/soak, and extensive forensic source/log/Git/memory-image analysis. Ten on-demand skills; no automatic scans or model routing. External tools must be installed separately; Bridge v0.1.12 keeps P3/P5/P8 governance.",
-        "ms": "Sepuluh skills kejuruteraan on-demand dan satu workbench native DSH untuk security/pentest terkawal, k6 load/stress/spike/soak serta forensic audit kod/log/Git/memory image. Tiada scan automatik atau model router. Tools luaran dipasang berasingan; Bridge v0.1.12 kekal mengawal P3/P5/P8."
+        "en": "Selective engineering with one native DSH workbench: multi-stage authorized pentest (ZAP, Nuclei, API authz, Nmap), load/stress/spike/soak, and forensic file/log/Git/memory-image investigations. Windows ZAP Java/JAR adapter, no global scans, no agent router. External binaries installed separately.",
+        "ms": "Sepuluh skills on-demand dan satu workbench native DSH bagi pentest berautoriti, load/stress/spike/soak dan forensic audit fail/log/Git/memory image. Adapter ZAP Windows melalui Java/JAR; tiada scan automatik. Alat luaran dipasang berasingan."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
@@ -407,6 +407,18 @@
         "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices"
       },
       "versions": [
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1794488400,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+            "commit": "2361b94a1f7238d1f6050efc7a7803b76b41ce47"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.3.0",
           "publishTimestamp": 1794486000,
