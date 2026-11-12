@@ -398,8 +398,8 @@
         "ms": "DSH Engineering Practices"
       },
       "description": {
-        "en": "Selective engineering with one native DSH workbench: multi-stage authorized pentest (ZAP, Nuclei, API authz, Nmap), load/stress/spike/soak, and forensic file/log/Git/memory-image investigations. Windows ZAP Java/JAR adapter, no global scans, no agent router. External binaries installed separately.",
-        "ms": "Sepuluh skills on-demand dan satu workbench native DSH bagi pentest berautoriti, load/stress/spike/soak dan forensic audit fail/log/Git/memory image. Adapter ZAP Windows melalui Java/JAR; tiada scan automatik. Alat luaran dipasang berasingan."
+        "en": "Skill-first DSH engineering: preserve Superpowers-derived test-first, systematic debugging, code review and evidence-first verification; add five selectively invoked secure development, vulnerability audit, authorized penetration testing, load/stress/resilience and digital forensic agent methods. One subordinate execution workbench. Bridge v0.1.12 keeps P3/P5/P8 governance.",
+        "ms": "Skills DSH berasaskan keperluan: kekalkan kaedah Superpowers yang diadaptasi (test-first, debugging, code review, verification) serta lima skills khusus untuk keselamatan, audit vulnerability, penetration testing dibenarkan, load/stress dan digital forensics. Workbench hanya alat sokongan. Bridge v0.1.12 kekal mengawal P3/P5/P8."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
@@ -407,6 +407,18 @@
         "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices"
       },
       "versions": [
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1794490326,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+            "commit": "426b527f2ce6ecc919c62b7657cc4ebadad73792"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.3.1",
           "publishTimestamp": 1794488400,
