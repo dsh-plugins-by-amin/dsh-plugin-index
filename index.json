@@ -398,8 +398,8 @@
         "ms": "DSH Engineering Practices"
       },
       "description": {
-        "en": "Skill-first DSH engineering: preserve Superpowers-derived test-first, systematic debugging, code review and evidence-first verification; add five selectively invoked secure development, vulnerability audit, authorized penetration testing, load/stress/resilience and digital forensic agent methods. One subordinate execution workbench. Bridge v0.1.12 keeps P3/P5/P8 governance.",
-        "ms": "Skills DSH berasaskan keperluan: kekalkan kaedah Superpowers yang diadaptasi (test-first, debugging, code review, verification) serta lima skills khusus untuk keselamatan, audit vulnerability, penetration testing dibenarkan, load/stress dan digital forensics. Workbench hanya alat sokongan. Bridge v0.1.12 kekal mengawal P3/P5/P8."
+        "en": "Skill-first DSH engineering with preserved Superpowers-derived test-first, systematic debugging, code review and verification; five selective security, pentest, performance and forensics skills plus one subordinate workbench. v0.4.1 restores complete regression checks. Bridge v0.1.12 owns P3/P5/P8 governance.",
+        "ms": "Engineering skills DSH secara terpilih; mengekalkan Superpowers-derived test-first, debugging, code review dan verification, serta lima skills keselamatan, pentest, performance dan forensic. v0.4.1 membetulkan regression tests penuh. Bridge v0.1.12 mengawal P3/P5/P8."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
@@ -407,6 +407,18 @@
         "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices"
       },
       "versions": [
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1794491584,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+            "commit": "c8ccdc9b28c0d387dcf73a2301b470b6e46bab1e"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.4.0",
           "publishTimestamp": 1794490326,
