@@ -472,6 +472,15 @@
       },
       "versions": [
         {
+          "version": "0.4.2",
+          "publishTimestamp": 1794461410,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+            "commit": "713d9272a1087d35653d8cadb190ab1a61fae4ab"
+          }
+        },
+        {
           "version": "0.4.1",
           "publishTimestamp": 1794458022,
           "source": {
