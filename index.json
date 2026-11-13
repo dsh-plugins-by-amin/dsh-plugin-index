@@ -590,6 +590,36 @@
         }
       ],
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-playwright"
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-ui-ux-craft",
+      "title": {
+        "en": "DSH UI/UX Craft",
+        "ms": "DSH UI/UX Craft"
+      },
+      "description": {
+        "en": "Five selective native DSH skills for quality page layout, design-system fidelity, responsive composition, actual screenshot critique and accessible interactions. Complements SDLC Bridge; no global workflow or model routing.",
+        "ms": "Lima skills DSH terpilih untuk layout berkualiti, design system, responsif, visual critique daripada screenshot sebenar dan interaksi mesra akses. Melengkapkan SDLC Bridge tanpa workflow global."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge/tree/release/ui-ux-craft-v0.1.0",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794528756,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "0bfb0bc3b4da0bbbbaef77bfda8739a4aedcd09d"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
