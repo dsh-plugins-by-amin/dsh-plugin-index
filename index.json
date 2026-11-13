@@ -613,7 +613,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "0bfb0bc3b4da0bbbbaef77bfda8739a4aedcd09d"
+            "commit": "684c650cac4200848e05a627b82ec4981b06f580"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
