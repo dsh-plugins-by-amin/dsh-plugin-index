@@ -52,12 +52,21 @@
       },
       "versions": [
         {
-          "version": "2.0.2",
-          "publishTimestamp": 1793957098,
+          "version": "2.1.0",
+          "publishTimestamp": 1794528418,
           "source": {
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
-            "commit": "b5843419bc58fa35078c7917b565a53fd106f5e7"
+            "commit": "d7a654214e3c3a83781d204dc50c8d503eab7551"
+          }
+        },
+        {
+          "version": "2.0.4",
+          "publishTimestamp": 1793958103,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
+            "commit": "372405ffee52d974ea061dad40d4b874b1ce5001"
           }
         },
         {
@@ -70,12 +79,12 @@
           }
         },
         {
-          "version": "2.0.4",
-          "publishTimestamp": 1793958103,
+          "version": "2.0.2",
+          "publishTimestamp": 1793957098,
           "source": {
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
-            "commit": "372405ffee52d974ea061dad40d4b874b1ce5001"
+            "commit": "b5843419bc58fa35078c7917b565a53fd106f5e7"
           }
         }
       ]
