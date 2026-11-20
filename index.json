@@ -614,6 +614,33 @@
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
             "commit": "684c650cac4200848e05a627b82ec4981b06f580"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-session-relay",
+      "title": {
+        "en": "Session relay",
+        "ms": "Session relay"
+      },
+      "description": {
+        "en": "Text messaging between live DSH sessions in one process: discover with session_list, send with session_send (followup, inject, or steer), review queued and held mail with session_inbox, and check delivery with session_receipts. Offline targets queue on disk and are delivered when their session opens again; no session is ever resumed behind the owner's back. Cross-workspace messages wait for receiver review. Runtime data stays on the owner's data drive (fail-closed, never written elsewhere).",
+        "ms": "Messaging teks antara session DSH yang hidup dalam satu proses: jumpa dengan session_list, hantar dengan session_send (followup, inject, atau steer), semak mel tertunggak dan ditahan melalui session_inbox, dan periksa status pengiriman melalui session_receipts. Sasaran luar talian masuk antrian pada cakera dan dihantar semasa session dibuka semula; tiada session dihidupkan semula tanpa tujuan pemilik. Mesej lintas workspace menunggu semakan penerima. Data runtime kekal pada drive data pemilik (gagal tertutup, tidak ditulis ke tempat lain)."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795193616,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+            "commit": "d8cbf126b2ee6380710124a6469c9fcb214ea5e4"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
