@@ -640,7 +640,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "157a9aa"
+            "commit": "157a9aa013a95ba1ebe455512f9526c54eb022c2"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
