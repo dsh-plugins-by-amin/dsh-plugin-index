@@ -635,6 +635,18 @@
       },
       "versions": [
         {
+          "version": "0.2.5",
+          "publishTimestamp": 1795202471,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+            "commit": "ebe616d36ec0844a7be8ce2dc1f17fe3d96dd8c6"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
           "version": "0.2.4",
           "publishTimestamp": 1795201506,
           "source": {
