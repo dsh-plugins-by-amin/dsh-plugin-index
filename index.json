@@ -1,791 +1,790 @@
 {
-  "format": 1,
-  "title": {
-    "en": "DSH Plugins by Amin"
-  },
-  "description": {
-    "en": "Plugins maintained by the dsh-plugins-by-amin org. Install through the Discover tab."
-  },
-  "plugins": [
-    {
-      "name": "@dsh-plugins-by-amin/dsh-affinity",
-      "title": {
-        "en": "DSH Affinity",
-        "ms": "DSH Affinity"
-      },
-      "description": {
-        "en": "Native Affinity by Canva MCP tools and in-app SDK documentation over a local connection. No community skills bundled. Requires Affinity MCP enabled and Node.js 22+.",
-        "ms": "Tools MCP asal Affinity by Canva dan dokumentasi SDK dalam app melalui sambungan tempatan. Tiada skill komuniti. Memerlukan Affinity MCP dan Node.js 22+."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-affinity",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-affinity"
-      },
-      "versions": [
-        {
-          "version": "1.0.0",
-          "publishTimestamp": 1794074487,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-affinity",
-            "commit": "0cfd50d01acdba4ac87935f41360ef89f94e4725"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-notify",
-      "title": {
-        "en": "dsh-notify"
-      },
-      "description": {
-        "en": "Windows toast notifications for DSH: activity fully done (incl. subagents), pending approvals, and tool errors. Zero npm dependencies."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-notify",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-notify"
-      },
-      "versions": [
-        {
-          "version": "2.1.0",
-          "publishTimestamp": 1794528418,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
-            "commit": "d7a654214e3c3a83781d204dc50c8d503eab7551"
-          }
-        },
-        {
-          "version": "2.0.4",
-          "publishTimestamp": 1793958103,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
-            "commit": "372405ffee52d974ea061dad40d4b874b1ce5001"
-          }
-        },
-        {
-          "version": "2.0.3",
-          "publishTimestamp": 1793957250,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
-            "commit": "ddbe3a6831aa8e461e30bf1981fa614444df0727"
-          }
-        },
-        {
-          "version": "2.0.2",
-          "publishTimestamp": 1793957098,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-notify",
-            "commit": "b5843419bc58fa35078c7917b565a53fd106f5e7"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-keyring",
-      "title": {
-        "en": "Keyring"
-      },
-      "description": {
-        "en": "Secure API token store for DSH: save, rotate, delete, and use tokens (Cloudflare and any other service) without exposing values in chat or logs. Requests are allowlisted per token; disabling the plugin cuts access, and the wipe tool clears all data."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring"
-      },
-      "versions": [
-        {
-          "version": "1.1.1",
-          "publishTimestamp": 1794369604,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
-            "commit": "9c5d4f78d109c3249bfe3f1af08f84f444d03727"
-          }
-        },
-        {
-          "version": "1.1.0",
-          "publishTimestamp": 1794368990,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
-            "commit": "bdeceee2494bec307267509ef51cda62caf04a13"
-          }
-        },
-        {
-          "version": "1.0.2",
-          "publishTimestamp": 1794067687,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
-            "commit": "66fc27a72854579f68b19276af06e1f52aae7ad4"
-          }
-        },
-        {
-          "version": "1.0.1",
-          "publishTimestamp": 1794033658,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
-            "commit": "73a0673287e68705fe00824115666d00b9cf4536"
-          }
-        },
-        {
-          "version": "1.0.0",
-          "publishTimestamp": 1794024457,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-keyring",
-            "commit": "2a4eb289441615279ea60285f4cff298abd70a3a"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-sdlc-bridge",
-      "title": {
-        "en": "DSH SDLC Bridge"
-      },
-      "description": {
-        "en": "SDLC V2 Bridge with version-independent, source-declared P3 UI/UX visual capability validation; P3/P5 governed implementation, P6 UAT, P7 release and P8 service. Uses existing source tracking and owner approval gates."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge"
-      },
-      "versions": [
-        {
-          "version": "0.1.13",
-          "publishTimestamp": 1794528357,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "398dc1c187af62f8003e4aa5773e4e02d292c0e8"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.0",
-          "publishTimestamp": 1794037346,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "1f1d4ec941a7b0be05756f20e41babb54bb38f28"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.2",
-          "publishTimestamp": 1794039731,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "c0e65911a80dfeb516f44ffedf481181e32d49a4"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.3",
-          "publishTimestamp": 1794225176,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "e2b620d08500de2b6a4995e03ddde3c62ab4124a"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.4",
-          "publishTimestamp": 1794273541,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "0e2ebf60bf3a4094e619775b097d11048c414f11"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.5",
-          "publishTimestamp": 1794273796,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "23545221fb8e1fff6c76ccb81c79a13efc777e1c"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.6",
-          "publishTimestamp": 1794275379,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "1542b2036938fe1a16eb3540e6f0798a5b2bbbdb"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.7",
-          "publishTimestamp": 1794277476,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "5b52eb7a3739c588a4c4c1fc3fb2c392f0c8dfd9"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.8",
-          "publishTimestamp": 1794277741,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "f45b5a4e4d1f386349c9a52f492418d551bcaf00"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.9",
-          "publishTimestamp": 1794281048,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "e57c2873c5c43c822936866a777a2a8ccf5ba1b0"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.10",
-          "publishTimestamp": 1794283277,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "d026eae56e12a6ca9811fa48d55fdd6f930e4db6"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.12",
-          "publishTimestamp": 1794367779,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "daa1c53d6e206cb7f3cf135a42ac8bad18dd111a"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-repo-2-workspace",
-      "title": {
-        "en": "Workspace dari GitHub",
-        "ms": "Workspace dari GitHub"
-      },
-      "description": {
-        "en": "Sidebar panel that clones a GitHub repository into the folder you pick every time (no default), registers the folder as a DSH workspace, and opens a new session in it. Also exposes the repo2workspace_clone tool to agents with the same no-default destination rule.",
-        "ms": "Panel sidebar yang clone repo GitHub ke folder yang kau pilih setiap kali (tiada default), daftar folder itu sebagai workspace DSH, dan terus buka sesi baru di dalamnya. Tool repo2workspace_clone turut didedahkan kepada agent dengan peraturan sama: destinasi tiada default."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace"
-      },
-      "versions": [
-        {
-          "version": "1.0.0",
-          "publishTimestamp": 1794129561,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-            "commit": "0a6cea0bd6f18cfa3ea8bfba48990121ce7efeda"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "1.0.1",
-          "publishTimestamp": 1794129743,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-            "commit": "bc9a298f16602453d978df2eaca59322053f83ef"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "1.0.2",
-          "publishTimestamp": 1794129804,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-            "commit": "27dbb573a282b35121b3d03722c557af33efaeb5"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "1.0.3",
-          "publishTimestamp": 1794130138,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-            "commit": "f67ca9e4d20b9759751e6e1a985c2779043c29e4"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "1.0.4",
-          "publishTimestamp": 1794130608,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-            "commit": "8675f994c4e42a5ed8d7ce6ca91e1148329d8750"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "1.0.5",
-          "publishTimestamp": 1794131034,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-            "commit": "7ad02d74dcd1034abb2267affa290ed8c40cf942"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "1.1.0",
-          "publishTimestamp": 1794211222,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-            "commit": "dc6475624b6509b4de219ca9897ce46d6c1e0dbb"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-engineering-practices",
-      "title": {
-        "en": "DSH Engineering Practices",
-        "ms": "DSH Engineering Practices"
-      },
-      "description": {
-        "en": "Skill-first DSH engineering with preserved Superpowers-derived test-first, systematic debugging, code review and verification; five selective security, pentest, performance and forensics skills plus one subordinate workbench. v0.4.1 restores complete regression checks. Bridge v0.1.12 owns P3/P5/P8 governance.",
-        "ms": "Engineering skills DSH secara terpilih; mengekalkan Superpowers-derived test-first, debugging, code review dan verification, serta lima skills keselamatan, pentest, performance dan forensic. v0.4.1 membetulkan regression tests penuh. Bridge v0.1.12 mengawal P3/P5/P8."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices"
-      },
-      "versions": [
-        {
-          "version": "0.4.1",
-          "publishTimestamp": 1794491584,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
-            "commit": "c8ccdc9b28c0d387dcf73a2301b470b6e46bab1e"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.4.0",
-          "publishTimestamp": 1794490326,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
-            "commit": "426b527f2ce6ecc919c62b7657cc4ebadad73792"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.3.1",
-          "publishTimestamp": 1794488400,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
-            "commit": "2361b94a1f7238d1f6050efc7a7803b76b41ce47"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.3.0",
-          "publishTimestamp": 1794486000,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
-            "commit": "1d3779d5d1f401fed12c2f5dc060902e5c464104"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.2.0",
-          "publishTimestamp": 1794485400,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
-            "commit": "8716874ade801117ca08d37b590c39631d7cf462"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.0",
-          "publishTimestamp": 1794367131,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
-            "commit": "dd15a5a61149fca59ef53821fc05c684b90baf1a"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-language",
-      "title": {
-        "en": "Language (BM)"
-      },
-      "description": {
-        "en": "Injects a Malaysian language contract (BM + English, no Indonesian) into the core system prompt of every session. One compact rule, no tools, no UI.",
-        "ms": "Suntik kontrak bahasa Malaysia (BM + English, tiada Indonesia) ke tengah system prompt setiap sesi. Satu peraturan padat, tiada tool."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-language",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-language"
-      },
-      "versions": [
-        {
-          "version": "1.1.0",
-          "publishTimestamp": 1794438880,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-language",
-            "commit": "2dd3b446de0369a3dec0bd14cdbd6f1577b0fa0e"
-          }
-        },
-        {
-          "version": "1.0.0",
-          "publishTimestamp": 1794370008,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-language",
-            "commit": "04880cfa67cb342581cb801ceff47d242333abb8"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-playwright",
-      "title": {
-        "en": "dsh-playwright",
-        "ms": "dsh-playwright"
-      },
-      "description": {
-        "en": "Preview: session-isolated Microsoft Edge automation. Each DSH session owns one pinned Playwright MCP stdio child and its own isolated Edge; no shared personal browser. Requires installed Edge.",
-        "ms": "Pratonton: automasi Microsoft Edge terasing per sesi DSH. Setiap sesi DSH memiliki satu child Playwright MCP (versi disemat) dan Edge terasing sendiri; tiada kongsi pelayar peribadi. Memerlukan Edge dipasang."
-      },
-      "author": "aminfaudzi",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright"
-      },
-      "versions": [
-        {
-          "version": "0.4.3",
-          "publishTimestamp": 1794463542,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
-            "commit": "ba7ebaceb2535909534a10706c26e2aac0dec31d"
-          }
-        },
-        {
-          "version": "0.4.2",
-          "publishTimestamp": 1794461410,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
-            "commit": "713d9272a1087d35653d8cadb190ab1a61fae4ab"
-          }
-        },
-        {
-          "version": "0.4.1",
-          "publishTimestamp": 1794458022,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
-            "commit": "11a9226be7cea2b1f6777d8972a4b428e87242d0"
-          }
-        },
-        {
-          "version": "0.4.0",
-          "publishTimestamp": 1794415123,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-playwright",
-            "commit": "8ba2507ff48667e28b77cf0769a63de72b3c65cb"
-          }
-        }
-      ],
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-playwright"
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-ui-ux-craft",
-      "title": {
-        "en": "DSH UI/UX Craft",
-        "ms": "DSH UI/UX Craft"
-      },
-      "description": {
-        "en": "Five selective native DSH skills for quality page layout, design-system fidelity, responsive composition, actual screenshot critique and accessible interactions. Complements SDLC Bridge; no global workflow or model routing.",
-        "ms": "Lima skills DSH terpilih untuk layout berkualiti, design system, responsif, visual critique daripada screenshot sebenar dan interaksi mesra akses. Melengkapkan SDLC Bridge tanpa workflow global."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge/tree/release/ui-ux-craft-v0.1.0",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge"
-      },
-      "versions": [
-        {
-          "version": "0.1.0",
-          "publishTimestamp": 1794528756,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "684c650cac4200848e05a627b82ec4981b06f580"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@dsh-plugins-by-amin/dsh-session-relay",
-      "title": {
-        "en": "Session relay",
-        "ms": "Session relay"
-      },
-      "description": {
-        "en": "Text messaging between live DSH sessions in one process: discover with session_list, send with session_send (followup, inject, or steer), review queued and held mail with session_inbox, and check delivery with session_receipts. Offline targets queue on disk and are delivered when their session opens again; no session is ever resumed behind the owner's back. Cross-workspace messages wait for receiver review. Runtime data stays on the owner's data drive (fail-closed, never written elsewhere).",
-        "ms": "Messaging teks antara session DSH yang hidup dalam satu proses: jumpa dengan session_list, hantar dengan session_send (followup, inject, atau steer), semak mel tertunggak dan ditahan melalui session_inbox, dan periksa status pengiriman melalui session_receipts. Sasaran luar talian masuk antrian pada cakera dan dihantar semasa session dibuka semula; tiada session dihidupkan semula tanpa tujuan pemilik. Mesej lintas workspace menunggu semakan penerima. Data runtime kekal pada drive data pemilik (gagal tertutup, tidak ditulis ke tempat lain)."
-      },
-      "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-      "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay"
-      },
-      "versions": [
-        {
-          "version": "0.3.1",
-          "publishTimestamp": 1795204434,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "7b1fd21233d9e65b9bbcb9c529e398b041b54bb2"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.3.0",
-          "publishTimestamp": 1795202446,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "5a7dfb8eec782da2f98b19aa4d4136d4b886f2a4"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.2.5",
-          "publishTimestamp": 1795202471,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "ebe616d36ec0844a7be8ce2dc1f17fe3d96dd8c6"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.2.4",
-          "publishTimestamp": 1795201506,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "5dc060a1b82d26a3dfd55b92f9b4077d64db8090"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.2.3",
-          "publishTimestamp": 1795200095,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "3e2040dc2ce87b50fb62fc805f21223f0dceca5c"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.2.2",
-          "publishTimestamp": 1795199232,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "409d13817119b980859977ddc733bb902608dd38"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.2.1",
-          "publishTimestamp": 1795197435,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "beba6fab0b11e8fc8b47d61cef969d25cb3f1575"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.2.0",
-          "publishTimestamp": 1795195602,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "157a9aa013a95ba1ebe455512f9526c54eb022c2"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.0",
-          "publishTimestamp": 1795193616,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
-            "commit": "d8cbf126b2ee6380710124a6469c9fcb214ea5e4"
-          },
-          "engines": {
-            "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        }
-      ]
-    }
-  ,
-    {
-        "name": "@dsh-plugins-by-amin/dsh-graph-bridge",
-        "title": {
-            "en": "Microsoft Graph bridge",
-            "ms": "Jambatan Microsoft Graph"
-        },
-        "description": {
-            "en": "Self-service Microsoft Graph access for every DSH session: graph_request plus SharePoint file download and upload with automatic app-only token renewal (client credentials). Secrets stay in the DSH credentials store; configuration carries references only. Outbound calls are allowlisted to graph.microsoft.com.",
-            "ms": "Akses Microsoft Graph berkhidmat-sendiri untuk setiap sesi DSH: graph_request serta muat turun dan muat naik fail SharePoint dengan pembaruan token app-only automatik (client credentials). Secret kekal dalam store kredensial DSH; konfigurasi membawa rujukan sahaja. Panggilan luar dibenarkan ke graph.microsoft.com sahaja."
-        },
-        "author": "aminfaudzi",
-        "repository": {
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge"
-        },
-        "homepage": "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
-        "versions": [
-            {
-                "version": "0.1.0",
-                "publishTimestamp": 1795540152,
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
-                    "commit": "e6bb523be95f1a5a97aeff92a052f8d07c245934"
-                },
-                "engines": {
-                    "dsh": ">=0.2.2-rc.1 <0.3.0"
-                }
-            }
-        ,
-            {
-                "version": "0.1.1",
-                "publishTimestamp": 1795234555,
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
-                    "commit": "6dc0e4e08886b114b5e411f3b90d7170061d66ae"
-                },
-                "engines": {
-                    "dsh": ">=0.2.2-rc.1 <0.3.0"
-                }
-            }
-        ]
-    }]
+    "format":  1,
+    "title":  {
+                  "en":  "DSH Plugins by Amin"
+              },
+    "description":  {
+                        "en":  "Plugins maintained by the dsh-plugins-by-amin org. Install through the Discover tab."
+                    },
+    "plugins":  [
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-affinity",
+                        "title":  {
+                                      "en":  "DSH Affinity",
+                                      "ms":  "DSH Affinity"
+                                  },
+                        "description":  {
+                                            "en":  "Native Affinity by Canva MCP tools and in-app SDK documentation over a local connection. No community skills bundled. Requires Affinity MCP enabled and Node.js 22+.",
+                                            "ms":  "Tools MCP asal Affinity by Canva dan dokumentasi SDK dalam app melalui sambungan tempatan. Tiada skill komuniti. Memerlukan Affinity MCP dan Node.js 22+."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-affinity",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-affinity"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1794074487,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-affinity",
+                                                            "commit":  "0cfd50d01acdba4ac87935f41360ef89f94e4725"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-notify",
+                        "title":  {
+                                      "en":  "dsh-notify"
+                                  },
+                        "description":  {
+                                            "en":  "Windows toast notifications for DSH: activity fully done (incl. subagents), pending approvals, and tool errors. Zero npm dependencies."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-notify",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-notify"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "2.1.0",
+                                             "publishTimestamp":  1794528418,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-notify",
+                                                            "commit":  "d7a654214e3c3a83781d204dc50c8d503eab7551"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "2.0.4",
+                                             "publishTimestamp":  1793958103,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-notify",
+                                                            "commit":  "372405ffee52d974ea061dad40d4b874b1ce5001"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "2.0.3",
+                                             "publishTimestamp":  1793957250,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-notify",
+                                                            "commit":  "ddbe3a6831aa8e461e30bf1981fa614444df0727"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "2.0.2",
+                                             "publishTimestamp":  1793957098,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-notify",
+                                                            "commit":  "b5843419bc58fa35078c7917b565a53fd106f5e7"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-keyring",
+                        "title":  {
+                                      "en":  "Keyring"
+                                  },
+                        "description":  {
+                                            "en":  "Secure API token store for DSH: save, rotate, delete, and use tokens (Cloudflare and any other service) without exposing values in chat or logs. Requests are allowlisted per token; disabling the plugin cuts access, and the wipe tool clears all data."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-keyring",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-keyring"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "1.1.1",
+                                             "publishTimestamp":  1794369604,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-keyring",
+                                                            "commit":  "9c5d4f78d109c3249bfe3f1af08f84f444d03727"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "1.1.0",
+                                             "publishTimestamp":  1794368990,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-keyring",
+                                                            "commit":  "bdeceee2494bec307267509ef51cda62caf04a13"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "1.0.2",
+                                             "publishTimestamp":  1794067687,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-keyring",
+                                                            "commit":  "66fc27a72854579f68b19276af06e1f52aae7ad4"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "1.0.1",
+                                             "publishTimestamp":  1794033658,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-keyring",
+                                                            "commit":  "73a0673287e68705fe00824115666d00b9cf4536"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1794024457,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-keyring",
+                                                            "commit":  "2a4eb289441615279ea60285f4cff298abd70a3a"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-sdlc-bridge",
+                        "title":  {
+                                      "en":  "DSH SDLC Bridge"
+                                  },
+                        "description":  {
+                                            "en":  "SDLC V2 Bridge with version-independent, source-declared P3 UI/UX visual capability validation; P3/P5 governed implementation, P6 UAT, P7 release and P8 service. Uses existing source tracking and owner approval gates."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "0.1.13",
+                                             "publishTimestamp":  1794528357,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "398dc1c187af62f8003e4aa5773e4e02d292c0e8"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1794037346,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "1f1d4ec941a7b0be05756f20e41babb54bb38f28"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.2",
+                                             "publishTimestamp":  1794039731,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "c0e65911a80dfeb516f44ffedf481181e32d49a4"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.3",
+                                             "publishTimestamp":  1794225176,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "e2b620d08500de2b6a4995e03ddde3c62ab4124a"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.4",
+                                             "publishTimestamp":  1794273541,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "0e2ebf60bf3a4094e619775b097d11048c414f11"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.5",
+                                             "publishTimestamp":  1794273796,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "23545221fb8e1fff6c76ccb81c79a13efc777e1c"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.6",
+                                             "publishTimestamp":  1794275379,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "1542b2036938fe1a16eb3540e6f0798a5b2bbbdb"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.7",
+                                             "publishTimestamp":  1794277476,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "5b52eb7a3739c588a4c4c1fc3fb2c392f0c8dfd9"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.8",
+                                             "publishTimestamp":  1794277741,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "f45b5a4e4d1f386349c9a52f492418d551bcaf00"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.9",
+                                             "publishTimestamp":  1794281048,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "e57c2873c5c43c822936866a777a2a8ccf5ba1b0"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.10",
+                                             "publishTimestamp":  1794283277,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "d026eae56e12a6ca9811fa48d55fdd6f930e4db6"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.12",
+                                             "publishTimestamp":  1794367779,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "daa1c53d6e206cb7f3cf135a42ac8bad18dd111a"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-repo-2-workspace",
+                        "title":  {
+                                      "en":  "Workspace dari GitHub",
+                                      "ms":  "Workspace dari GitHub"
+                                  },
+                        "description":  {
+                                            "en":  "Sidebar panel that clones a GitHub repository into the folder you pick every time (no default), registers the folder as a DSH workspace, and opens a new session in it. Also exposes the repo2workspace_clone tool to agents with the same no-default destination rule.",
+                                            "ms":  "Panel sidebar yang clone repo GitHub ke folder yang kau pilih setiap kali (tiada default), daftar folder itu sebagai workspace DSH, dan terus buka sesi baru di dalamnya. Tool repo2workspace_clone turut didedahkan kepada agent dengan peraturan sama: destinasi tiada default."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1794129561,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "0a6cea0bd6f18cfa3ea8bfba48990121ce7efeda"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.1",
+                                             "publishTimestamp":  1794129743,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "bc9a298f16602453d978df2eaca59322053f83ef"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.2",
+                                             "publishTimestamp":  1794129804,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "27dbb573a282b35121b3d03722c557af33efaeb5"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.3",
+                                             "publishTimestamp":  1794130138,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "f67ca9e4d20b9759751e6e1a985c2779043c29e4"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.4",
+                                             "publishTimestamp":  1794130608,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "8675f994c4e42a5ed8d7ce6ca91e1148329d8750"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.5",
+                                             "publishTimestamp":  1794131034,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "7ad02d74dcd1034abb2267affa290ed8c40cf942"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.1.0",
+                                             "publishTimestamp":  1794211222,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "dc6475624b6509b4de219ca9897ce46d6c1e0dbb"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-engineering-practices",
+                        "title":  {
+                                      "en":  "DSH Engineering Practices",
+                                      "ms":  "DSH Engineering Practices"
+                                  },
+                        "description":  {
+                                            "en":  "Skill-first DSH engineering with preserved Superpowers-derived test-first, systematic debugging, code review and verification; five selective security, pentest, performance and forensics skills plus one subordinate workbench. v0.4.1 restores complete regression checks. Bridge v0.1.12 owns P3/P5/P8 governance.",
+                                            "ms":  "Engineering skills DSH secara terpilih; mengekalkan Superpowers-derived test-first, debugging, code review dan verification, serta lima skills keselamatan, pentest, performance dan forensic. v0.4.1 membetulkan regression tests penuh. Bridge v0.1.12 mengawal P3/P5/P8."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "0.4.1",
+                                             "publishTimestamp":  1794491584,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+                                                            "commit":  "c8ccdc9b28c0d387dcf73a2301b470b6e46bab1e"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.4.0",
+                                             "publishTimestamp":  1794490326,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+                                                            "commit":  "426b527f2ce6ecc919c62b7657cc4ebadad73792"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.3.1",
+                                             "publishTimestamp":  1794488400,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+                                                            "commit":  "2361b94a1f7238d1f6050efc7a7803b76b41ce47"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.3.0",
+                                             "publishTimestamp":  1794486000,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+                                                            "commit":  "1d3779d5d1f401fed12c2f5dc060902e5c464104"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.2.0",
+                                             "publishTimestamp":  1794485400,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+                                                            "commit":  "8716874ade801117ca08d37b590c39631d7cf462"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1794367131,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-engineering-practices",
+                                                            "commit":  "dd15a5a61149fca59ef53821fc05c684b90baf1a"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-language",
+                        "title":  {
+                                      "en":  "Language (BM)"
+                                  },
+                        "description":  {
+                                            "en":  "Injects a Malaysian language contract (BM + English, no Indonesian) into the core system prompt of every session. One compact rule, no tools, no UI.",
+                                            "ms":  "Suntik kontrak bahasa Malaysia (BM + English, tiada Indonesia) ke tengah system prompt setiap sesi. Satu peraturan padat, tiada tool."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-language",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-language"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "1.1.0",
+                                             "publishTimestamp":  1794438880,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-language",
+                                                            "commit":  "2dd3b446de0369a3dec0bd14cdbd6f1577b0fa0e"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1794370008,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-language",
+                                                            "commit":  "04880cfa67cb342581cb801ceff47d242333abb8"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-playwright",
+                        "title":  {
+                                      "en":  "dsh-playwright",
+                                      "ms":  "dsh-playwright"
+                                  },
+                        "description":  {
+                                            "en":  "Preview: session-isolated Microsoft Edge automation. Each DSH session owns one pinned Playwright MCP stdio child and its own isolated Edge; no shared personal browser. Requires installed Edge.",
+                                            "ms":  "Pratonton: automasi Microsoft Edge terasing per sesi DSH. Setiap sesi DSH memiliki satu child Playwright MCP (versi disemat) dan Edge terasing sendiri; tiada kongsi pelayar peribadi. Memerlukan Edge dipasang."
+                                        },
+                        "author":  "aminfaudzi",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-playwright"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "0.4.3",
+                                             "publishTimestamp":  1794463542,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+                                                            "commit":  "ba7ebaceb2535909534a10706c26e2aac0dec31d"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "0.4.2",
+                                             "publishTimestamp":  1794461410,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+                                                            "commit":  "713d9272a1087d35653d8cadb190ab1a61fae4ab"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "0.4.1",
+                                             "publishTimestamp":  1794458022,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+                                                            "commit":  "11a9226be7cea2b1f6777d8972a4b428e87242d0"
+                                                        }
+                                         },
+                                         {
+                                             "version":  "0.4.0",
+                                             "publishTimestamp":  1794415123,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-playwright",
+                                                            "commit":  "8ba2507ff48667e28b77cf0769a63de72b3c65cb"
+                                                        }
+                                         }
+                                     ],
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-playwright"
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-ui-ux-craft",
+                        "title":  {
+                                      "en":  "DSH UI/UX Craft",
+                                      "ms":  "DSH UI/UX Craft"
+                                  },
+                        "description":  {
+                                            "en":  "Five selective native DSH skills for quality page layout, design-system fidelity, responsive composition, actual screenshot critique and accessible interactions. Complements SDLC Bridge; no global workflow or model routing.",
+                                            "ms":  "Lima skills DSH terpilih untuk layout berkualiti, design system, responsif, visual critique daripada screenshot sebenar dan interaksi mesra akses. Melengkapkan SDLC Bridge tanpa workflow global."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge/tree/release/ui-ux-craft-v0.1.0",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1794528756,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "684c650cac4200848e05a627b82ec4981b06f580"
+                                                        }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-session-relay",
+                        "title":  {
+                                      "en":  "Session relay",
+                                      "ms":  "Session relay"
+                                  },
+                        "description":  {
+                                            "en":  "Text messaging between live DSH sessions in one process: discover with session_list, send with session_send (followup, inject, or steer), review queued and held mail with session_inbox, and check delivery with session_receipts. Offline targets queue on disk and are delivered when their session opens again; no session is ever resumed behind the owner\u0027s back. Cross-workspace messages wait for receiver review. Runtime data stays on the owner\u0027s data drive (fail-closed, never written elsewhere).",
+                                            "ms":  "Messaging teks antara session DSH yang hidup dalam satu proses: jumpa dengan session_list, hantar dengan session_send (followup, inject, atau steer), semak mel tertunggak dan ditahan melalui session_inbox, dan periksa status pengiriman melalui session_receipts. Sasaran luar talian masuk antrian pada cakera dan dihantar semasa session dibuka semula; tiada session dihidupkan semula tanpa tujuan pemilik. Mesej lintas workspace menunggu semakan penerima. Data runtime kekal pada drive data pemilik (gagal tertutup, tidak ditulis ke tempat lain)."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "0.3.1",
+                                             "publishTimestamp":  1795204434,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "7b1fd21233d9e65b9bbcb9c529e398b041b54bb2"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.3.0",
+                                             "publishTimestamp":  1795202446,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "5a7dfb8eec782da2f98b19aa4d4136d4b886f2a4"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.2.5",
+                                             "publishTimestamp":  1795202471,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "ebe616d36ec0844a7be8ce2dc1f17fe3d96dd8c6"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.2.4",
+                                             "publishTimestamp":  1795201506,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "5dc060a1b82d26a3dfd55b92f9b4077d64db8090"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.2.3",
+                                             "publishTimestamp":  1795200095,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "3e2040dc2ce87b50fb62fc805f21223f0dceca5c"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.2.2",
+                                             "publishTimestamp":  1795199232,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "409d13817119b980859977ddc733bb902608dd38"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.2.1",
+                                             "publishTimestamp":  1795197435,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "beba6fab0b11e8fc8b47d61cef969d25cb3f1575"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.2.0",
+                                             "publishTimestamp":  1795195602,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "157a9aa013a95ba1ebe455512f9526c54eb022c2"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1795193616,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-session-relay",
+                                                            "commit":  "d8cbf126b2ee6380710124a6469c9fcb214ea5e4"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "name":  "@dsh-plugins-by-amin/dsh-graph-bridge",
+                        "title":  {
+                                      "en":  "Microsoft Graph bridge",
+                                      "ms":  "Jambatan Microsoft Graph"
+                                  },
+                        "description":  {
+                                            "en":  "Self-service Microsoft Graph access for every DSH session: graph_request plus SharePoint file download and upload with automatic app-only token renewal (client credentials). Secrets stay in the DSH credentials store; configuration carries references only. Outbound calls are allowlisted to graph.microsoft.com.",
+                                            "ms":  "Akses Microsoft Graph berkhidmat-sendiri untuk setiap sesi DSH: graph_request serta muat turun dan muat naik fail SharePoint dengan pembaruan token app-only automatik (client credentials). Secret kekal dalam store kredensial DSH; konfigurasi membawa rujukan sahaja. Panggilan luar dibenarkan ke graph.microsoft.com sahaja."
+                                        },
+                        "author":  "aminfaudzi",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge"
+                                       },
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
+                        "versions":  [
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1795231255,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
+                                                            "commit":  "e6bb523be95f1a5a97aeff92a052f8d07c245934"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.1",
+                                             "publishTimestamp":  1795234555,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
+                                                            "commit":  "6dc0e4e08886b114b5e411f3b90d7170061d66ae"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         }
+                                     ]
+                    }
+                ]
 }
