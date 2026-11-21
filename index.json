@@ -744,5 +744,35 @@
         }
       ]
     }
-  ]
+  ,
+    {
+        "name": "@dsh-plugins-by-amin/dsh-graph-bridge",
+        "title": {
+            "en": "Microsoft Graph bridge",
+            "ms": "Jambatan Microsoft Graph"
+        },
+        "description": {
+            "en": "Self-service Microsoft Graph access for every DSH session: graph_request plus SharePoint file download and upload with automatic app-only token renewal (client credentials). Secrets stay in the DSH credentials store; configuration carries references only. Outbound calls are allowlisted to graph.microsoft.com.",
+            "ms": "Akses Microsoft Graph berkhidmat-sendiri untuk setiap sesi DSH: graph_request serta muat turun dan muat naik fail SharePoint dengan pembaruan token app-only automatik (client credentials). Secret kekal dalam store kredensial DSH; konfigurasi membawa rujukan sahaja. Panggilan luar dibenarkan ke graph.microsoft.com sahaja."
+        },
+        "author": "aminfaudzi",
+        "repository": {
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge"
+        },
+        "homepage": "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
+        "versions": [
+            {
+                "version": "0.1.0",
+                "publishTimestamp": 1795540152,
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
+                    "commit": "e6bb523be95f1a5a97aeff92a052f8d07c245934"
+                },
+                "engines": {
+                    "dsh": ">=0.2.2-rc.1 <0.3.0"
+                }
+            }
+        ]
+    }]
 }
