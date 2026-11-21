@@ -773,6 +773,7 @@
                     "dsh": ">=0.2.2-rc.1 <0.3.0"
                 }
             }
+        ,`n            {`n                "version": "0.1.1",`n                "publishTimestamp": 1795234555,`n                "source": {`n                    "type": "git",`n                    "url": "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",`n                    "commit": "6dc0e4e08886b114b5e411f3b90d7170061d66ae"`n                },`n                "engines": {`n                    "dsh": ">=0.2.2-rc.1 <0.3.0"`n                }`n            }
         ]
     }]
 }
