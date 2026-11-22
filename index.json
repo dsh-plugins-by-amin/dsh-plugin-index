@@ -785,6 +785,36 @@
                                                          }
                                          }
                                      ]
+                    },
+                    {
+                        "name": "@dsh-plugins-by-amin/dsh-ollama-native",
+                        "title": {
+                            "en": "DSH Ollama Native",
+                            "ms": "DSH Ollama Native"
+                        },
+                        "description": {
+                            "en": "Dedicated native /api/chat adapter for Ollama Cloud with DeepSeek V4.1 Flash reasoning replay, tool-call integrity and isolated provider routing. Original DSH Ollama and DeepSeek providers unchanged.",
+                            "ms": "Adapter native /api/chat untuk Ollama Cloud dengan kesinambungan reasoning DeepSeek V4.1 Flash, integriti tool calls dan provider terasing. Provider DSH asal tidak diubah."
+                        },
+                        "author": "aminfaudzi",
+                        "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.1.0",
+                        "repository": {
+                            "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
+                        },
+                        "versions": [
+                            {
+                                "version": "0.1.0",
+                                "publishTimestamp": 1795350905,
+                                "source": {
+                                    "type": "git",
+                                    "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
+                                    "commit": "027fd7beaf68e586132bdcdfd57440683cfed537"
+                                },
+                                "engines": {
+                                    "dsh": ">=0.2.2-rc.1 <0.3.0"
+                                }
+                            }
+                        ]
                     }
                 ]
 }
