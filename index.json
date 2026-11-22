@@ -177,108 +177,12 @@
                                                          }
                                          },
                                          {
-                                             "version":  "0.1.0",
-                                             "publishTimestamp":  1794037346,
+                                             "version":  "0.1.12",
+                                             "publishTimestamp":  1794367779,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "1f1d4ec941a7b0be05756f20e41babb54bb38f28"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "0.1.2",
-                                             "publishTimestamp":  1794039731,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "c0e65911a80dfeb516f44ffedf481181e32d49a4"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "0.1.3",
-                                             "publishTimestamp":  1794225176,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "e2b620d08500de2b6a4995e03ddde3c62ab4124a"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "0.1.4",
-                                             "publishTimestamp":  1794273541,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "0e2ebf60bf3a4094e619775b097d11048c414f11"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "0.1.5",
-                                             "publishTimestamp":  1794273796,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "23545221fb8e1fff6c76ccb81c79a13efc777e1c"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "0.1.6",
-                                             "publishTimestamp":  1794275379,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "1542b2036938fe1a16eb3540e6f0798a5b2bbbdb"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "0.1.7",
-                                             "publishTimestamp":  1794277476,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "5b52eb7a3739c588a4c4c1fc3fb2c392f0c8dfd9"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "0.1.8",
-                                             "publishTimestamp":  1794277741,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "f45b5a4e4d1f386349c9a52f492418d551bcaf00"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "0.1.9",
-                                             "publishTimestamp":  1794281048,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "e57c2873c5c43c822936866a777a2a8ccf5ba1b0"
+                                                            "commit":  "daa1c53d6e206cb7f3cf135a42ac8bad18dd111a"
                                                         },
                                              "engines":  {
                                                              "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
@@ -297,12 +201,108 @@
                                                          }
                                          },
                                          {
-                                             "version":  "0.1.12",
-                                             "publishTimestamp":  1794367779,
+                                             "version":  "0.1.9",
+                                             "publishTimestamp":  1794281048,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-                                                            "commit":  "daa1c53d6e206cb7f3cf135a42ac8bad18dd111a"
+                                                            "commit":  "e57c2873c5c43c822936866a777a2a8ccf5ba1b0"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.8",
+                                             "publishTimestamp":  1794277741,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "f45b5a4e4d1f386349c9a52f492418d551bcaf00"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.7",
+                                             "publishTimestamp":  1794277476,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "5b52eb7a3739c588a4c4c1fc3fb2c392f0c8dfd9"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.6",
+                                             "publishTimestamp":  1794275379,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "1542b2036938fe1a16eb3540e6f0798a5b2bbbdb"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.5",
+                                             "publishTimestamp":  1794273796,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "23545221fb8e1fff6c76ccb81c79a13efc777e1c"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.4",
+                                             "publishTimestamp":  1794273541,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "0e2ebf60bf3a4094e619775b097d11048c414f11"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.3",
+                                             "publishTimestamp":  1794225176,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "e2b620d08500de2b6a4995e03ddde3c62ab4124a"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.2",
+                                             "publishTimestamp":  1794039731,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "c0e65911a80dfeb516f44ffedf481181e32d49a4"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1794037346,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+                                                            "commit":  "1f1d4ec941a7b0be05756f20e41babb54bb38f28"
                                                         },
                                              "engines":  {
                                                              "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
@@ -327,60 +327,12 @@
                                        },
                         "versions":  [
                                          {
-                                             "version":  "1.0.0",
-                                             "publishTimestamp":  1794129561,
+                                             "version":  "1.1.0",
+                                             "publishTimestamp":  1794211222,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-                                                            "commit":  "0a6cea0bd6f18cfa3ea8bfba48990121ce7efeda"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "1.0.1",
-                                             "publishTimestamp":  1794129743,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-                                                            "commit":  "bc9a298f16602453d978df2eaca59322053f83ef"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "1.0.2",
-                                             "publishTimestamp":  1794129804,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-                                                            "commit":  "27dbb573a282b35121b3d03722c557af33efaeb5"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "1.0.3",
-                                             "publishTimestamp":  1794130138,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-                                                            "commit":  "f67ca9e4d20b9759751e6e1a985c2779043c29e4"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
-                                             "version":  "1.0.4",
-                                             "publishTimestamp":  1794130608,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-                                                            "commit":  "8675f994c4e42a5ed8d7ce6ca91e1148329d8750"
+                                                            "commit":  "dc6475624b6509b4de219ca9897ce46d6c1e0dbb"
                                                         },
                                              "engines":  {
                                                              "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
@@ -399,12 +351,60 @@
                                                          }
                                          },
                                          {
-                                             "version":  "1.1.0",
-                                             "publishTimestamp":  1794211222,
+                                             "version":  "1.0.4",
+                                             "publishTimestamp":  1794130608,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
-                                                            "commit":  "dc6475624b6509b4de219ca9897ce46d6c1e0dbb"
+                                                            "commit":  "8675f994c4e42a5ed8d7ce6ca91e1148329d8750"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.3",
+                                             "publishTimestamp":  1794130138,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "f67ca9e4d20b9759751e6e1a985c2779043c29e4"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.2",
+                                             "publishTimestamp":  1794129804,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "27dbb573a282b35121b3d03722c557af33efaeb5"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.1",
+                                             "publishTimestamp":  1794129743,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "bc9a298f16602453d978df2eaca59322053f83ef"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         },
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1794129561,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-repo-2-workspace",
+                                                            "commit":  "0a6cea0bd6f18cfa3ea8bfba48990121ce7efeda"
                                                         },
                                              "engines":  {
                                                              "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
@@ -761,18 +761,6 @@
                         "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
                         "versions":  [
                                          {
-                                             "version":  "0.1.0",
-                                             "publishTimestamp":  1795231255,
-                                             "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
-                                                            "commit":  "e6bb523be95f1a5a97aeff92a052f8d07c245934"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
-                                                         }
-                                         },
-                                         {
                                              "version":  "0.1.1",
                                              "publishTimestamp":  1795234555,
                                              "source":  {
@@ -783,38 +771,50 @@
                                              "engines":  {
                                                              "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
                                                          }
+                                         },
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1795231255,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-graph-bridge",
+                                                            "commit":  "e6bb523be95f1a5a97aeff92a052f8d07c245934"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
                                          }
                                      ]
                     },
                     {
-                        "name": "@dsh-plugins-by-amin/dsh-ollama-native",
-                        "title": {
-                            "en": "DSH Ollama Native",
-                            "ms": "DSH Ollama Native"
-                        },
-                        "description": {
-                            "en": "Dedicated native /api/chat adapter for Ollama Cloud with DeepSeek V4.1 Flash reasoning replay, tool-call integrity and isolated provider routing. Original DSH Ollama and DeepSeek providers unchanged.",
-                            "ms": "Adapter native /api/chat untuk Ollama Cloud dengan kesinambungan reasoning DeepSeek V4.1 Flash, integriti tool calls dan provider terasing. Provider DSH asal tidak diubah."
-                        },
-                        "author": "aminfaudzi",
-                        "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.1.0",
-                        "repository": {
-                            "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
-                        },
-                        "versions": [
-                            {
-                                "version": "0.1.0",
-                                "publishTimestamp": 1795350905,
-                                "source": {
-                                    "type": "git",
-                                    "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
-                                    "commit": "027fd7beaf68e586132bdcdfd57440683cfed537"
-                                },
-                                "engines": {
-                                    "dsh": ">=0.2.2-rc.1 <0.3.0"
-                                }
-                            }
-                        ]
+                        "name":  "@dsh-plugins-by-amin/dsh-ollama-native",
+                        "title":  {
+                                      "en":  "DSH Ollama Native",
+                                      "ms":  "DSH Ollama Native"
+                                  },
+                        "description":  {
+                                            "en":  "Dedicated native /api/chat adapter for Ollama Cloud with DeepSeek V4.1 Flash reasoning replay, tool-call integrity and isolated provider routing. Original DSH Ollama and DeepSeek providers unchanged.",
+                                            "ms":  "Adapter native /api/chat untuk Ollama Cloud dengan kesinambungan reasoning DeepSeek V4.1 Flash, integriti tool calls dan provider terasing. Provider DSH asal tidak diubah."
+                                        },
+                        "author":  "aminfaudzi",
+                        "homepage":  "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.1.0",
+                        "repository":  {
+                                           "url":  "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "0.1.0",
+                                             "publishTimestamp":  1795350905,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
+                                                            "commit":  "027fd7beaf68e586132bdcdfd57440683cfed537"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.1 \u003c0.3.0"
+                                                         }
+                                         }
+                                     ]
                     }
                 ]
 }
