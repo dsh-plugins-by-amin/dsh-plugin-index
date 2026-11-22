@@ -805,15 +805,27 @@
         "ms": "DSH Ollama Native"
       },
       "description": {
-        "en": "Dedicated native /api/chat adapter for Ollama Cloud with DeepSeek V4.1 Flash reasoning replay, tool-call integrity and isolated provider routing. Original DSH Ollama and DeepSeek providers unchanged.",
-        "ms": "Adapter native /api/chat untuk Ollama Cloud dengan kesinambungan reasoning DeepSeek V4.1 Flash, integriti tool calls dan provider terasing. Provider DSH asal tidak diubah."
+        "en": "Model-neutral Ollama Cloud native /api/chat transport override for the existing DSH Ollama provider. No second model entry: preserves existing models, thinking/tool conversations and native fallback on disable.",
+        "ms": "Pengganti transport native /api/chat Ollama Cloud bagi provider Ollama sedia ada dalam DSH. Tiada pilihan model pendua; kekalkan katalog model asal, reasoning, tool calls serta rollback apabila plugin dimatikan."
       },
       "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.1.0",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.2.0",
       "repository": {
         "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
       },
       "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1795352541,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
+            "commit": "4d45fd64eb30a92015be8435e75be71264637f0c"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.1.0",
           "publishTimestamp": 1795350905,
