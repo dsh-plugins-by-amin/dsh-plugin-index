@@ -805,15 +805,27 @@
         "ms": "DSH Ollama Native"
       },
       "description": {
-        "en": "Model-neutral Ollama Cloud native /api/chat transport override for the existing DSH Ollama provider. No second model entry: preserves existing models, thinking/tool conversations and native fallback on disable.",
-        "ms": "Pengganti transport native /api/chat Ollama Cloud bagi provider Ollama sedia ada dalam DSH. Tiada pilihan model pendua; kekalkan katalog model asal, reasoning, tool calls serta rollback apabila plugin dimatikan."
+        "en": "Native Ollama Cloud transport enhancement using original DSH Ollama route; Auto review remains with original provider, with safe original-provider fallback when override credential is missing.",
+        "ms": "Enhancement Ollama Cloud pada route Ollama asal DSH; Auto review kekal pada provider asal dan fallback selamat jika credential plugin tiada."
       },
       "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.2.0",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.2.1",
       "repository": {
         "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
       },
       "versions": [
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1795382400,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
+            "commit": "bcdc233e755d6985a171a476ac646494f0733fb6"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.2.0",
           "publishTimestamp": 1795352541,
