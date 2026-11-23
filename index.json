@@ -801,19 +801,31 @@
     {
       "name": "@dsh-plugins-by-amin/dsh-ollama-native",
       "title": {
-        "en": "DSH Ollama Native",
-        "ms": "DSH Ollama Native"
+        "en": "DSH Ollama Native (RC)",
+        "ms": "DSH Ollama Native (RC)"
       },
       "description": {
-        "en": "Native Ollama Cloud transport enhancement using original DSH Ollama route; Auto review remains with original provider, with safe original-provider fallback when override credential is missing.",
-        "ms": "Enhancement Ollama Cloud pada route Ollama asal DSH; Auto review kekal pada provider asal dan fallback selamat jika credential plugin tiada."
+        "en": "Release candidate: zero-duplicate Ollama Cloud /api/chat fidelity overlay. Reuses existing provider credential reference, validates model reasoning/tool capabilities and logs NATIVE_ACTIVE. Local tests only; coding quality improvement not yet verified on DSH Desktop.",
+        "ms": "Release candidate: enhancement Ollama Cloud /api/chat tanpa provider berganda. Guna credential reference provider asal, sahkan reasoning/tools model dan log NATIVE_ACTIVE. Ujian lokal lulus; peningkatan kualiti coding belum disahkan pada DSH Desktop."
       },
       "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.2.1",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.4.0-rc.1",
       "repository": {
         "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
       },
       "versions": [
+        {
+          "version": "0.4.0-rc.1",
+          "publishTimestamp": 1795444200,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
+            "commit": "ad7b78e77d982c299b9d2c6005ad629c0e520542"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.2.1",
           "publishTimestamp": 1795382400,
