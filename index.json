@@ -801,19 +801,31 @@
     {
       "name": "@dsh-plugins-by-amin/dsh-ollama-native",
       "title": {
-        "en": "DSH Ollama Native (RC)",
-        "ms": "DSH Ollama Native (RC)"
+        "en": "DSH Ollama Native",
+        "ms": "DSH Ollama Native"
       },
       "description": {
-        "en": "Ollama Cloud fidelity overlay plus dynamic DSH subagent planning: host-authorized, capability-validated route matching and task-specific execution contracts. RC; no proven model-quality uplift.",
-        "ms": "Peningkatan transport Ollama Cloud dan perancangan subagent dinamik DSH: model ikut allowlist Host, keupayaan tugas dan kontrak pelaksanaan. RC; peningkatan prestasi belum dibuktikan."
+        "en": "Ollama Cloud transport compatibility and optional DSH subagent task planning. Stable package version with isolated optional integration; live model-quality improvement is not verified.",
+        "ms": "Keserasian transport Ollama Cloud dan perancangan tugasan subagent DSH secara pilihan. Versi pakej stabil dengan integrasi pilihan diasingkan; peningkatan kualiti model sebenar belum disahkan."
       },
       "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.5.0-rc.1",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.5.0",
       "repository": {
         "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
       },
       "versions": [
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1795491600,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
+            "commit": "9da3cce75dbaaa8d001a1aaacd5ff0ae84b15c2e"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.5.0-rc.1",
           "publishTimestamp": 1795460400,
