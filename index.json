@@ -805,15 +805,27 @@
         "ms": "DSH Ollama Native (RC)"
       },
       "description": {
-        "en": "Release candidate: zero-duplicate Ollama Cloud /api/chat fidelity overlay. Reuses existing provider credential reference, validates model reasoning/tool capabilities and logs NATIVE_ACTIVE. Local tests only; coding quality improvement not yet verified on DSH Desktop.",
-        "ms": "Release candidate: enhancement Ollama Cloud /api/chat tanpa provider berganda. Guna credential reference provider asal, sahkan reasoning/tools model dan log NATIVE_ACTIVE. Ujian lokal lulus; peningkatan kualiti coding belum disahkan pada DSH Desktop."
+        "en": "Ollama Cloud fidelity overlay plus dynamic DSH subagent planning: host-authorized, capability-validated route matching and task-specific execution contracts. RC; no proven model-quality uplift.",
+        "ms": "Peningkatan transport Ollama Cloud dan perancangan subagent dinamik DSH: model ikut allowlist Host, keupayaan tugas dan kontrak pelaksanaan. RC; peningkatan prestasi belum dibuktikan."
       },
       "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.4.0-rc.1",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat/tree/release/ollama-native-v0.5.0-rc.1",
       "repository": {
         "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat"
       },
       "versions": [
+        {
+          "version": "0.5.0-rc.1",
+          "publishTimestamp": 1795460400,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-codex-compat",
+            "commit": "cc1d1b4d50f279b984cbc1cd2311b12e6b67e6b6"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.4.0-rc.1",
           "publishTimestamp": 1795444200,
