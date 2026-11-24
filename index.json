@@ -809,6 +809,36 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-coding-hooks",
+      "title": {
+        "en": "DSH Coding Hooks",
+        "ms": "DSH Coding Hooks"
+      },
+      "description": {
+        "en": "Coding discipline hooks: enforce read-before-edit so agent edits are grounded in actually-read file content.",
+        "ms": "Hook disiplin coding: paksa read-before-edit supaya edit agent berasaskan kandungan fail yang benar-benar dibaca."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-coding-hooks",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-coding-hooks"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795527095,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-coding-hooks",
+            "commit": "a5171a00fa66b82e87e902584206b50f73726944"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
