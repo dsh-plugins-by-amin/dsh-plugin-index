@@ -165,6 +165,18 @@
       },
       "versions": [
         {
+          "version": "0.1.14",
+          "publishTimestamp": 1795526702,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
+            "commit": "ec514858fb5a56bad20b8164ca1f15c6ae93a4a5"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
           "version": "0.1.13",
           "publishTimestamp": 1794528357,
           "source": {
