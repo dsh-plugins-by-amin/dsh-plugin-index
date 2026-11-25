@@ -848,6 +848,36 @@
           }
         }
       ]
+    },
+    {
+      "name": "@dsh-plugins-by-amin/dsh-vision-route",
+      "title": {
+        "en": "Vision route",
+        "ms": "Vision route"
+      },
+      "description": {
+        "en": "Routes image-bearing turns to a vision-capable model when the active model is non-vision, preserving the agentic delegation flow. Fully dynamic and provider-agnostic: models are detected at runtime, nothing hardcoded. Auto-declares pi-ai catalog models image-capable while active and reverts when disabled.",
+        "ms": "Halakan turn yang ada gambar ke model vision apabila model aktif bukan vision, tanpa memutuskan flow delegation (subagent). Dynamic sepenuhnya dan provider-agnostic: model dikesan semasa runtime, tiada hardcode. Auto-declare model catalog pi-ai boleh terima gambar semasa aktif dan revert bila dilumpuhkan."
+      },
+      "author": "aminfaudzi",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-vision-route",
+      "repository": {
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-vision-route"
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1795581007,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-vision-route",
+            "commit": "70d85317d4a448cb3aee6870468901f4b6ec0ff8"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
