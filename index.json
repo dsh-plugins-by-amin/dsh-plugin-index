@@ -866,6 +866,18 @@
       },
       "versions": [
         {
+          "version": "0.4.1",
+          "publishTimestamp": 1795610927,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-vision-route",
+            "commit": "eaa760a96785ef0074a3debb0a8c7591077ce3f2"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
+        {
           "version": "0.4.0",
           "publishTimestamp": 1795610350,
           "source": {
