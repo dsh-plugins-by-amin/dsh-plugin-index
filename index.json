@@ -623,9 +623,9 @@
         "ms": "Lima skills DSH terpilih untuk layout berkualiti, design system, responsif, visual critique daripada screenshot sebenar dan interaksi mesra akses. Melengkapkan SDLC Bridge tanpa workflow global."
       },
       "author": "aminfaudzi",
-      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge/tree/release/ui-ux-craft-v0.1.0",
+      "homepage": "https://github.com/dsh-plugins-by-amin/dsh-ui-ux-craft",
       "repository": {
-        "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge"
+        "url": "https://github.com/dsh-plugins-by-amin/dsh-ui-ux-craft"
       },
       "versions": [
         {
@@ -633,20 +633,11 @@
           "publishTimestamp": 1795351800,
           "source": {
             "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "c34acc9e71e186941b87a2ba1bf4c69a022d88d0"
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-ui-ux-craft",
+            "commit": "71c9cddc87cd7c965d64cada036ed1c1a386ec6a"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0"
-          }
-        },
-        {
-          "version": "0.1.0",
-          "publishTimestamp": 1794528756,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/dsh-plugins-by-amin/dsh-sdlc-bridge",
-            "commit": "684c650cac4200848e05a627b82ec4981b06f580"
           }
         }
       ]
