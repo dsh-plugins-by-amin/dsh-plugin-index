@@ -619,8 +619,8 @@
         "ms": "DSH UI/UX Craft"
       },
       "description": {
-        "en": "Selective UI composition, design-system, responsive, browser-observed screenshot critique and accessibility skills; no global SDLC governance.",
-        "ms": "Lima skills DSH terpilih untuk layout berkualiti, design system, responsif, visual critique daripada screenshot sebenar dan interaksi mesra akses. Melengkapkan SDLC Bridge tanpa workflow global."
+        "en": "Seven DSH skills plus a deterministic audit for interfaces that hold up: a shared context/decision model (13 environment axes, 4 composition classes, component-relationship and shape-change laws, trade-off tables), token architecture, state cascade, composition, responsive adaptation, visual critique and accessibility. Includes ui-audit (R01-R20) and taste-loop.",
+        "ms": "Tujuh skill DSH dan audit deterministik untuk antara muka yang bertahan: model keputusan yang dikongsi (13 paksi persekitaran, 4 kelas komposisi, hukum hubungan komponen dan perubahan bentuk, jadual trade-off), seni bina token, kontrak keadaan, komposisi, adaptasi responsif, kritik visual dan kebolehcapaian. Termasuk ui-audit (R01-R20) dan taste-loop."
       },
       "author": "aminfaudzi",
       "homepage": "https://github.com/dsh-plugins-by-amin/dsh-ui-ux-craft",
@@ -628,6 +628,18 @@
         "url": "https://github.com/dsh-plugins-by-amin/dsh-ui-ux-craft"
       },
       "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1795838331,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/dsh-plugins-by-amin/dsh-ui-ux-craft",
+            "commit": "58cecbde6a01a2c82f15a0b45be83675b7aab651"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        },
         {
           "version": "0.1.1",
           "publishTimestamp": 1795351800,
